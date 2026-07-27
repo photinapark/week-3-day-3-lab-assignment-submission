@@ -116,6 +116,29 @@ header {
   }
   /* End Lab Assignment */
 
+#infoBox {
+    visibility: hidden;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 20px;
+    width: 300px;
+    z-index: 10;
+}
+
+#infoBox h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#closeBox {
+    color: yellow;
+}
   footer {
     height: 40px;
     background-color:rgb(129, 141, 179);
